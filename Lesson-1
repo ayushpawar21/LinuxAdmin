@@ -1,0 +1,81 @@
+Module:1 Essential Commands
+	1. Installing Linux
+	2. Using Essential Tools
+	3. Esseentail FIle Managment Tools
+	4. Working with Text File
+	5. Connecting to a server
+	6. Working with SHELL
+
+=============================================================
+=============================================================
+1. Installing Linux
+=============================================================
+=============================================================
+1.1 UnderStanding Linux Distributions
+1.2 Installing CENTOS 7.5
+1.3 Installa Ubuntu 18.04 LTS
+1.4 LAB: Installing Ubuntu
+
+=============================================================
+1.1 UnderStanding Linux Distributions
+OpenSource vs Close Source
+  Projects
+     LinuxFoundati on
+       * Kernel
+       * Systemd
+       * GNU-utils
+       * GitHub
+
+Distributions:
+
+-------------------------------------------------------------
+Community 		Enterprise
+-------------------------------------------------------------
+CentOS			RHEL  
+			CentOS ( Properity)
+			Fedora (dev)
+			Ubuntu
+			Debian
+			Mint
+			SUSE Linux
+			Oracle	
+
+LAB: installation
+
+=============================================================
+2. Using Essential Tools
+=============================================================
+2.1 Logging in to Linux
+2.2 Using the  Essential Linux Command Line Tools
+2.3 Getting Help with man
+2.4 Finding which man page to use
+2.5 Using pinfo
+2.6 Using Other Systems for Getting Help
+
+Lesson2 Lab: Using Essential Tools
+=============================================================
+su - 
+su 
+sudo 
+whoami | hostname | date | uname | passwd |touch 
+last | man | apropos | mandb | uptime 
+
+=============================================================
+Lesson2 Lab: Using Essential Tools
+ Find out which version of the kernel your computer is using.
+ Use man adn related resource to find out how to  change the 
+ hostname of your computer.
+ Read the help output for lvcreate and find which options must
+ be used
+
+=============================================================
+=============================================================
+
+Understanding Linux File System 
+    - : regular file.
+    d : directory.
+    c : character device file.
+    b : block device file.
+    s : local socket file.
+    p : named pipe.
+    l : symbolic link.
